@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="document" content="conceitos sobre a computação ">
+    <title>Conceitos</title>
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Portal da Computação</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Início</a></li>
+        <li><a href="conceito.html">Conceitos</a></li>
+        <li><a href="carreiras.html">Carreiras</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <hr><br>
+
+  <main>
+    <section>
+      <h2>Formulário de Atendimento e Inscrição</h2>
+      <p>Preencha os campos abaixo para enviar suas dúvidas ou cadastrar seu currículo no nosso banco de talentos.</p>
+
+      <form action="#" method="post">
+        
+        <p>
+          <label for="nome">Nome Completo:</label><br>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+        </p>
+
+        <p>
+          <label for="email">E-mail para Contato:</label><br>
+          <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+        </p>
+
+        <p>
+          <label for="data_nascimento">Data de Nascimento:</label><br>
+          <input type="date" id="data_nascimento" name="data_nascimento" required>
+        </p>
+
+        <p>
+          <label for="area_interesse">Área de Interesse:</label><br>
+          <input type="text" id="area_interesse" name="area_interesse" list="areas" placeholder="Selecione ou digite uma área">
+          <datalist id="areas">
+            <option value="Desenvolvimento Web">
+            <option value="Análise de Dados">
+            <option value="Segurança da Informação">
+            <option value="Redes e Infraestrutura">
+          </datalist>
+        </p>
+        <br>
+        <p>
+          <label for="nivel_conhecimento">Nível de Conhecimento em Computação (1 a 10):</label><br>
+          <input type="range" id="nivel_conhecimento" name="nivel_conhecimento" min="1" max="10">
+        </p>
+
+        <p>
+          <label for="curriculo">Envie seu Currículo ou Projeto (PDF ou Documento):</label><br>
+          <input type="file" id="curriculo" name="curriculo" required>
+        </p>
+
+        <p>
+          <label for="mensagem">Mensagem:</label><br>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+        </p>
+
+        <p>
+          <button type="submit">Enviar Formulário</button>
+        </p>
+
+      </form>
+    </section>
+  </main>
+  <br><hr>
+  <footer>
+    <p>&copy; 2026 Portal da Computação. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
+  
+</body>
+
+</html>
